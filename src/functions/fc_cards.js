@@ -1,7 +1,7 @@
 import {clubDeck,heartDeck,diamondDeck,spadeDeck} from './decks.js';
 let decks = [diamondDeck,heartDeck,clubDeck,spadeDeck];
 let naipeIcons = ['♦️','♥️','♠️','♣️'];   
-let maoInicial = [];
+let mao = [];
 
 export function distribuirMaos(){
     let naipedDeck = chooseDeckandNaipeCard();
@@ -14,8 +14,8 @@ export function distribuirMaos(){
         value: naipedDeck.deckCard,
         naipe: naipedDeck.naipeIcon
     }
-    maoInicial.push(carta1,carta2);
-    return maoInicial;
+    mao.push(carta1,carta2);
+    return mao;
 }
 
 export function flop(){

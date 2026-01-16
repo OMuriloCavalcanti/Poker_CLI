@@ -5,14 +5,6 @@ maoJogador.forEach(card =>{
     console.log(card);
 });
 console.log('-------------------\noutro jogadores');
-distribuirMaos();
-distribuirMaos();
-distribuirMaos();
-distribuirMaos();
-distribuirMaos();
-distribuirMaos();
-distribuirMaos();
-distribuirMaos();
 let cartas = cartasRestantes();
 console.log(`${cartas.cartas} cartas restantes`);
 console.log('Round do flop');
